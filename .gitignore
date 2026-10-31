@@ -1,0 +1,18 @@
+config.py
+__pycache__/
+*.pyc
+build/
+dist/
+*.spec
+database/*.db
+.venv/
+venv/
+
+# Modelos preentrenados (se descargan con tools/descargar_modelos.py)
+models/weights/*
+!models/weights/.gitkeep
+# Datos de prueba descargados (tools/descargar_datos_prueba.py)
+tests/datos/
+# Datos locales sensibles: clave de cifrado biométrico y ajustes
+database/biometria.key
+database/ajustes.json

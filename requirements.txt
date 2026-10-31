@@ -1,0 +1,17 @@
+# Interfaz y aplicación original
+PyQt5==5.15.10
+PyQt5-sip==12.13.0
+pyinstaller==6.10.0
+matplotlib==3.9.2
+numpy==1.26.4
+qrcode==7.4.2
+Pillow==10.4.0
+cryptography==43.0.1
+
+# Visión por computador y audio (procesamiento local)
+# opencv-contrib-python incluye FaceDetectorYN/FaceRecognizerSF y es el que exige mediapipe;
+# no instalar también opencv-python (ambos proveen el módulo cv2 y entran en conflicto).
+opencv-contrib-python==4.11.0.86
+mediapipe==1.1.1
+sherpa-onnx==1.13.8
+sounddevice==0.5.6

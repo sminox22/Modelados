@@ -1,0 +1,8 @@
+Coloca aquí tus propios archivos:
+
+1) icon.ico   -> icono de la aplicacion y del .exe (Windows, 256x256 recomendado)
+2) icon.png   -> (opcional) se usa en la pantalla de bienvenida si no hay video
+3) splash_video.mp4 -> video que se reproduce al abrir la aplicacion (opcional)
+
+Los nombres deben ser EXACTOS (icon.ico, icon.png, splash_video.mp4) o debes
+editar la ruta en interfaces/welcome_screen.py y main.py.
